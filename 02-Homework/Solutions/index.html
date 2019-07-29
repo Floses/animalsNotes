@@ -1,0 +1,42 @@
+<!-- setting up html, letting the page know what our doctype is -->
+<!DOCTYPE html>
+<!-- setting the html language to english -->
+<html lang="en">
+  <!-- here is our opening head tag for our page -->
+  <head>
+    <!-- inside our headtag we have a few defining elements for the page -->
+    <!-- meta tag with a character set of UTF-8 defines what character set we use -->
+    <meta charset="UTF-8" />
+    <!-- giving our page a title of "Animaltastic" -->
+    <title>Animaltastic</title>
+    <!-- here we link our css stylesheet -->
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <!-- closing head tag -->
+  </head>
+  <!-- opening body tag, this will contain our page elements -->
+  <body>
+    <!-- creating a section with an id of animal-buttons -->
+    <div id="animal-buttons">
+      <!-- closing our animal buttons section -->
+    </div>
+    <!-- creating a form with an id of "animal-form"  -->
+    <form id="animal-form">
+      <!-- here is the label where we can have a box to input our animal -->
+      <label for="animal-input">Add an animal</label>
+      <!-- setting our label input as text -->
+      <input type="text" id="animal-input" /><br />
+      <!-- giving the input box a submit button to send information -->
+      <input id="add-animal" type="submit" value="Submit" />
+    </form>
+    <!-- creating another empty space to be filled with our created animals -->
+    <div id="animals">
+      <!-- closing div tag -->
+    </div>
+    <!-- here we insert the link for our javascript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <!-- here we link our own custom javascript code -->
+    <script src="app.js"></script>
+    <!-- closing body tag -->
+  </body>
+  <!-- closing page tag for hmtl -->
+</html>

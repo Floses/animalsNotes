@@ -1,0 +1,58 @@
+/* giving the entire body of our content a font size and font-family with a specificed background color */
+body {
+  font: 18px arial, sans-serif;
+  background: #eee;
+}
+/* giving our animals div a width of 70% */
+#animals {
+  width: 70%;
+}
+/* having our animal items float left and give them a bit of space with 10px of padding */
+.animal-item {
+  float: left;
+  padding: 10px;
+}
+/* our input form we float right so our animals can go left, we give it a width of 30% and padding of 20px */
+form {
+  float: right;
+  width: 30%;
+  padding: 20px;
+}
+/* for our form lable we display a block with a bottom margin and give it a font-weight of 700 */
+label {
+  display: block;
+  margin-bottom: 10px;
+  font-weight: 700;
+}
+/* here we give our input text a width of 100% or the size of the form and height of 30px margin-bottom 10px and make the font size 18px */
+input[type="text"] {
+  width: 100%;
+  height: 30px;
+  margin-bottom: 10px;
+  font-size: 18px;
+}
+/* styling our button to have some padding and margin. Make the font size 18px and give the text a color of #fff */
+/* defining our cursor as 'pointer' styled, and giving a background color of #659a98 */
+/* setting border to 0 and border radius to 5px which will slightly round our buttons edges */
+/* giving our buttons a shadow of color #bbb */
+button,
+input[type="submit"] {
+  padding: 5px 20px;
+  margin: 0 10px 10px 0;
+  font-size: 18px;
+  color: #fff;
+  cursor: pointer;
+  background: #659a98;
+  border: 0;
+  border-radius: 5px;
+  box-shadow: 2px 2px 3px #bbb;
+}
+/* here we say, on mouse pointer hover over our button, change the background to our new selected color */
+button:hover,
+input[type="submit"]:hover {
+  background: #334e4d;
+}
+/* here we say, if our current button is activated or clicked, set the color to our hover color */
+button.active {
+  background: #334e4d;
+}
